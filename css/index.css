@@ -1,0 +1,15 @@
+  
+#cursor {
+	width: 0.75em;
+	height: 0.75em;
+	border-radius: 50%;
+	background-color: purple;
+
+	--x: 0;
+	--y: 0;
+	position: fixed;
+	top: calc(var(--y) * 1px);
+	left: calc(var(--x) * 1px);
+
+	/* transition: all 10ms; */
+}
